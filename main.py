@@ -68,6 +68,6 @@ def my_currency(message):
     except Exception:
         bot.send_message(message.chat.id, 'Что-то не так. Введите пару валют заново в формате USD/EUR:')
         bot.register_next_step_handler(message, my_currency)
-
+#22222222222222222222222222222222222222222222222222222222222222222222222222222222222222
 # Запускаем бота
 bot.polling(none_stop=True)
