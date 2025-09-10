@@ -39,7 +39,7 @@ def summa(message):
     else:
         bot.send_message(message.chat.id, 'Число должно быть больше нуля. Введите сумму ещё раз:')
         bot.register_next_step_handler(message, summa)  # Если сумма меньше нуля, просим заново
-
+#333
 # Обработка нажатий на кнопки
 @bot.callback_query_handler(func=lambda call: True)
 def callback(call):
