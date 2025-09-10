@@ -9,7 +9,7 @@ bot = telebot.TeleBot('Token к боту')
 amount = 0
 # Объект для конвертации валют
 currency = CurrencyConverter()
-
+#3333
 # Команда /start
 @bot.message_handler(commands=['start'])
 def start(message):
