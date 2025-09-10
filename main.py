@@ -3,13 +3,13 @@ import telebot
 from currency_converter import CurrencyConverter
 from telebot import types
 
-# Создаем бота.
+# Создаем бота
 bot = telebot.TeleBot('Token к боту')
 # Переменная для суммы
 amount = 0
 # Объект для конвертации валют
 currency = CurrencyConverter()
-
+#3333
 # Команда /start
 @bot.message_handler(commands=['start'])
 def start(message):
